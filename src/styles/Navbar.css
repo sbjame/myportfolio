@@ -1,0 +1,278 @@
+.Navbar {
+    position: sticky;
+    top: 0;
+}
+
+.btn {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    scale: 1.1;
+}
+
+.btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    width: 0%;
+    height: 2px;
+    transition: 0.3s;
+}
+
+.btn:hover::after {
+    width: 100%;
+}
+
+.glass {
+    width: 96%;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 0 32px 16px rgba(255, 255, 255, 0.1);
+    position: fixed;
+    overflow: hidden;
+}
+
+.glass::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(255, 255, 255, 0.5),
+            transparent);
+}
+
+.glass::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.5),
+            transparent,
+            rgba(255, 255, 255, 0.3));
+}
+
+.glass-name {
+    padding-inline: calc(var(--spacing) * 4);
+    padding-block: calc(var(--spacing) * 2);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.5),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 0 32px 16px rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+}
+
+.glass-name::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(255, 255, 255, 0.8),
+            transparent);
+}
+
+.glass-name::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.8),
+            transparent,
+            rgba(255, 255, 255, 0.3));
+}
+
+.glass-cursor {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background: rgba(255, 255, 255, .6);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, .3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 0 32px 16px rgba(255, 255, 255, 0.1);
+    position: fixed;
+    overflow: hidden;
+}
+
+glass-cursor::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.5),
+    transparent
+  );
+}
+
+.glass-cursor::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.5),
+    transparent,
+    rgba(255, 255, 255, 0.3)
+  );
+}
+
+.about-card {
+    background: rgba(255, 255, 255, 0.2);
+    background-size: cover;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 0 32px 16px rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+}
+
+.about-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(255, 255, 255, 0.5),
+            transparent);
+}
+
+.about-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.5),
+            transparent,
+            rgba(255, 255, 255, 0.3));
+}
+
+.service-card {
+    background: rgba(255, 255, 255, 0.2);
+    background-size: cover;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 0 32px 16px rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+}
+
+.service-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(255, 255, 255, 0.5),
+            transparent);
+}
+
+.service-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.5),
+            transparent,
+            rgba(255, 255, 255, 0.3));
+}
+
+.me-card {
+    background: rgba(255, 255, 255, 0.2);
+    background-size: cover;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 0 32px 16px rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+}
+
+.me-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(255, 255, 255, 0.5),
+            transparent);
+}
+
+.me-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.5),
+            transparent,
+            rgba(255, 255, 255, 0.3));
+}
