@@ -1,10 +1,11 @@
 import Skills from './Skills';
+import meImg from '/About/me.jpg';
 
 const IntroSection = () => {
     return (
         <div className='w-[84vw] space-y-8 md:space-y-20'>
             <div className="about-card p-4 md:p-8 flex flex-col xl:flex-row gap-4 md:gap-16 justify-between drop-shadow-2xl drop-shadow-black/80">
-                <img className="w-full object-cover rounded-2xl h-auto xl:w-[40vw]" src="/About/me.jpg" alt="My Image" />
+                <img className="w-full object-cover rounded-2xl h-auto xl:w-[40vw]" src={meImg} alt="My Image" />
                 <div className="flex flex-col gap-0 md:gap-4 p-0 md:p-8 text-white">
                     <div className="text-4xl md:text-6xl font-medium drop-shadow-sm drop-shadow-black/50">About Me</div>
                     <div className="text-base md:text-xl font-light text-white drop-shadow-sm drop-shadow-black">Frontend Developer & UX/UI Design</div>

@@ -1,5 +1,5 @@
 import { PiPhone } from "react-icons/pi";
-import { SiFacebook, SiGithub } from "react-icons/si";
+import { SiFacebook, SiGithub, SiLinkedin } from "react-icons/si";
 import { FaLine } from "react-icons/fa";
 
 const Contacts = () => {
@@ -10,6 +10,9 @@ const Contacts = () => {
             </a>
             <a href="https://github.com/sbjame" className="cursor-none hover:scale-110 duration-300 drop-shadow-sm drop-shadow-black/40 flex justify-center items-center">
                 <SiGithub className="text-black" />
+            </a>
+            <a href="http://www.linkedin.com/in/surawut-boonying" className="cursor-none hover:scale-110 duration-300 drop-shadow-sm drop-shadow-black/40 flex justify-center items-center">
+                <SiLinkedin className="text-blue-600"/>
             </a>
             <div className="flex items-center justify-center gap-2 hover:scale-110 duration-300 drop-shadow-sm drop-shadow-black/40 text-white">
                 <PiPhone className="text-green-600" />
