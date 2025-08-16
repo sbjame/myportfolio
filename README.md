@@ -7,15 +7,7 @@
 
 # My Portfolio
 
-[Linve](surawut-boonying.vercel.app)
-
-## Table of Contents
-- [About](#about)
-- [Technologies](#technologies)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running Locally](#running-locally)
+[Live](surawut-boonying.vercel.app)
 
 ## About
 Poartfolio WebSite
