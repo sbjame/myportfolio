@@ -65,7 +65,11 @@ const IntroSection = () => {
                 </div>
                 <div className='w-full drop-shadow-sm drop-shadow-gray-600/80'>
                     <h2 className='text-lg md:text-4xl'>King Mongkut’s University of Technology North Bangkok</h2>
-                    <h3 className='text-sm md:text-base'>2020 - 2025</h3>
+                    <div className='flex gap-2 text-sm md:text-base'>
+                        <h3>2020 - 2025</h3>
+                        <h3>|</h3>
+                        <h3>GPAX: 2.85</h3>
+                    </div>
                     <span className='text-sm md:text-base'> Bachelor of Engineering Program in Industrial Engineering Technology, Mechatronic Engineering</span>
                 </div>
                 <h1 className='text-3xl md:text-6xl font-medium drop-shadow-sm drop-shadow-gray-600/80'>Unisersity Project</h1>
