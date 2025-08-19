@@ -7,12 +7,20 @@ const IntroSection = () => {
             <div className="about-card p-4 md:p-8 flex flex-col xl:flex-row gap-4 md:gap-16 justify-between drop-shadow-2xl drop-shadow-black/80">
                 <img className="w-full object-cover rounded-2xl h-auto xl:w-[40vw]" src={meImg} alt="My Image" />
                 <div className="flex flex-col gap-0 md:gap-4 p-0 md:p-8 text-white">
-                    <div className="text-4xl md:text-6xl font-medium drop-shadow-sm drop-shadow-black/50">About Me</div>
-                    <div className="text-base md:text-xl font-light text-white drop-shadow-sm drop-shadow-black">Frontend Developer & UX/UI Design</div>
-                    <div className="mt-4 text-base md:text-xl font-light text-white drop-shadow-xs drop-shadow-black/80">I am <span className="font-semibold">Surawut Boonying</span> (Jame) I'm Looking for Software Developer In <span className='font-semibold'>BKK</span>. I have knowledge in Python, Html, Css, JavaScript, ReactJs, Tailwindcss, Next.js, C/C++Arduino and Intermedaite in Mechanical Skate and Design(Solidworks Intermediate, AutoCad Imtermediate)
+                    <h1 className="text-4xl md:text-6xl font-medium drop-shadow-sm drop-shadow-black/50">About Me</h1>
+                    <h2 className="text-base md:text-xl font-light text-white drop-shadow-sm drop-shadow-black">Frontend Developer & UX/UI Design</h2>
+                    <div className="mt-4 text-base md:text-xl font-light text-white drop-shadow-xs drop-shadow-black/80">I am <span className="font-semibold">Surawut Boonying</span> (Jame) I'm Looking for Software Developer In <span className='font-semibold'>BKK</span>. Mechatronics Engineering graduate with strong skills in both software and hardware
+                        development. Experienced in embedded systems (STM32, C/C++), frontend
+                        development (React, Next.js), and API integration. Passionate about building efficient
+                        solutions that connect software with real-world devices.
+                        I have knowledge in Python, Html, Css, JavaScript, ReactJs, Tailwindcss, Next.js, C/C++Arduino and Intermedaite in Mechanical Skate and Design(Solidworks Intermediate, AutoCad Imtermediate)
                     </div>
                     <div>
                         <Skills />
+                    </div>
+                    <div className='flex flex-col gap-4'>
+                        <h3 className='text-xl font-light drop-shadow-sm drop-shadow-black'>Google Drive</h3>
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F022%2F613%2F023%2Fnon_2x%2Fgoogle-drive-icon-logo-symbol-free-png.png&f=1&nofb=1&ipt=b0e39044f999c57fbdbeaffb1fea54f182b40abf0cdfaabc5ab1f813418673c1" alt="Google Drive logo" className='w-10 md:w-15 h-auto drop-shadow-sm drop-shadow-black/40'/>
                     </div>
                 </div>
             </div>
