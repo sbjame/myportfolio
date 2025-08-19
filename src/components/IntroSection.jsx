@@ -68,7 +68,7 @@ const IntroSection = () => {
                     <div className='flex gap-2 text-sm md:text-base'>
                         <h3>2020 - 2025</h3>
                         <h3>|</h3>
-                        <h3>GPAX: 2.85</h3>
+                        <h3>GPAX: 2.82</h3>
                     </div>
                     <span className='text-sm md:text-base'> Bachelor of Engineering Program in Industrial Engineering Technology, Mechatronic Engineering</span>
                 </div>
