@@ -78,7 +78,7 @@ const Skills = () => {
                 {skillsLogo.map((skill, index) => {
                     const IconComponent = skill.logo;
                     return (
-                    <div key={index} className={`${skill.textColor} hover:scale-120 duration-300 h-full`}>ทฟ
+                    <div key={index} className={`${skill.textColor} hover:scale-120 duration-300 h-full`}>
                         <a href={skill.href} className="cursor-none"><IconComponent/></a>
                     </div>
                     );
