@@ -1,4 +1,4 @@
-import { SiReact, SiTypescript, SiJavascript, SiHtml5, SiCss3, SiFigma, SiAdobephotoshop, SiAdobeillustrator, SiAxios, SiNodedotjs, SiMysql, SiMongodb, SiNextdotjs, SiRender, SiVercel} from "react-icons/si"
+import { SiReact, SiTypescript, SiJavascript, SiHtml5, SiCss3, SiFigma, SiAdobephotoshop, SiAdobeillustrator, SiAxios, SiMysql, SiMongodb, SiNextdotjs, SiRender, SiVercel, SiCplusplus, SiPython} from "react-icons/si"
 
 const skillsLogo = [
     {
@@ -17,9 +17,14 @@ const skillsLogo = [
         href: "https://react.dev"
     },
     {
-        logo: SiNextdotjs,
+        logo: SiCplusplus,
+        textColor: "text-blue-500",
+        href: "https://tc39.es/ecma262/?utm_source=chatgpt.com#sec-intro"
+    },
+    {
+        logo: SiPython,
         textColor: "text-black",
-        href: "https://nextjs.org"
+        href: "https://tc39.es/ecma262/?utm_source=chatgpt.com#sec-intro"
     },
     {
         logo: SiJavascript,

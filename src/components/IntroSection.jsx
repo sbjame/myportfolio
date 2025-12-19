@@ -20,12 +20,7 @@ const IntroSection = () => {
           <div className="mt-4 text-base md:text-xl font-light text-white drop-shadow-xs drop-shadow-black/80">
             I am <span className="font-semibold">Surawut Boonying</span> (Jame)
             I'm Looking for Software Developer job in{" "}
-            <span className="font-semibold">BKK</span>. Mechatronics Engineering
-            graduate with strong skills in both software and hardware
-            development. Experienced in embedded systems (STM32, C/C++),
-            frontend development (React, Next.js), and API integration.
-            Passionate about building efficient solutions that connect software
-            with real-world devices.
+            <span className="font-semibold">BKK.</span> Mechatronic Engineering graduate with experience and hands-on experience as a developer (STM32, C/C++). Passionate about computer and technology fields, with a strong interest in learning and adapting to new technologies.
           </div>
           <div>
             <Skills />
@@ -51,55 +46,48 @@ const IntroSection = () => {
         </h1>
         <div className="w-full drop-shadow-sm drop-shadow-gray-600/80">
           <h2 className="text-lg md:text-4xl">
-            Product Developer / Software Developer, Wyke and Partner
-          </h2>
-          <h3 className="text-sm md:text-base">
-            Dec 2023 - Mar 2024 Bangkok, Thailand
-          </h3>
-          <ul className="text-sm md:text-base list-disc px-6">
-            <li>
-              Designed and developed mechanical components to integrate
-              seamlessly with sensors, ensuring accurate data collection and
-              reliable operation and improve performance.
-            </li>
-            <li>
-              Improved PCB layouts and sensor configurations to fit mechanical
-              designs and enhance product compatibility.
-            </li>
-            <li>
-              Conducted testing and troubleshooting to ensure stable sensor
-              performance under real-world conditions.
-            </li>
-            <li>
-              Developed and maintained frontend user interfaces using modern web
-              technologies (e.g., HTML, CSS, JavaScript, React).
-            </li>
-          </ul>
-        </div>
-        <div className="w-full drop-shadow-sm drop-shadow-gray-600/80">
-          <h2 className="text-lg md:text-4xl">
-            Product Developer / Software Developer, Wyke and Partner
+            Product Developer, Wyke and Partner
           </h2>
           <h3 className="text-sm md:text-base">
             Oct 2024 - May 2025 Bangkok, Thailand
           </h3>
           <ul className="text-sm md:text-base list-disc px-6">
             <li>
-              Designed and developed mechanical components to integrate
-              seamlessly with sensors, ensuring accurate data collection and
-              reliable operation and improve performance.
+              Designed and refined mechanical components to ensure compatibility with sensors and product requirements.
             </li>
             <li>
-              Improved PCB layouts and sensor configurations to fit mechanical
-              designs and enhance product compatibility.
+              Modified and enhanced firmware on STM32 microcontrollers (C/C++), improving overall system stability.
             </li>
             <li>
-              Conducted testing and troubleshooting to ensure stable sensor
-              performance under real-world conditions.
+              Developed web pages using modern frontend technologies (e.g., Typesctipt, JavaScript, React) to provide a userfriendly and visually appealing interface.
             </li>
             <li>
-              Developed and maintained frontend user interfaces using modern web
-              technologies (e.g., HTML, CSS, JavaScript, React).
+              Built APIs to aggregate and manage data from external sources, making it accessible for the web application.
+            </li>
+            <li>
+              Developed and optimized PCB layouts for improved product integration and performance.
+            </li>
+          </ul>
+        </div>
+        <div className="w-full drop-shadow-sm drop-shadow-gray-600/80">
+          <h2 className="text-lg md:text-4xl">
+            Intern - Product Developer, Wyke and Partner
+          </h2>
+          <h3 className="text-sm md:text-base">
+            Dec 2023 - Mar 2025 Bangkok, Thailand
+          </h3>
+          <ul className="text-sm md:text-base list-disc px-6">
+            <li>
+              Designed and developed mechanical components to integrate seamlessly with sensors, ensuring accurate data collection and reliable operation and improve performance.
+            </li>
+            <li>
+              Improved PCB layouts and sensor configurations to fit mechanical designs and enhance product compatibility.
+            </li>
+            <li>
+              Conducted testing and troubleshooting to ensure stable sensor performance under real-world conditions
+            </li>
+            <li>
+              Developed and maintained frontend user interfaces using modern web technologies (e.g., HTML, CSS, JavaScript, React)
             </li>
           </ul>
         </div>
