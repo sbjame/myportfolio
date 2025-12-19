@@ -1,4 +1,4 @@
-import { SiReact, SiTypescript, SiJavascript, SiHtml5, SiCss3, SiFigma, SiAdobephotoshop, SiAdobeillustrator, SiAxios, SiMysql, SiMongodb, SiNextdotjs, SiRender, SiVercel, SiCplusplus, SiPython} from "react-icons/si"
+import { SiReact, SiTypescript, SiJavascript, SiHtml5, SiCss3, SiAxios, SiMysql, SiMongodb, SiRender, SiVercel, SiNodedotjs, SiCplusplus, SiCashapp, SiPython} from "react-icons/si"
 
 const skillsLogo = [
     {
@@ -17,16 +17,6 @@ const skillsLogo = [
         href: "https://react.dev"
     },
     {
-        logo: SiCplusplus,
-        textColor: "text-blue-500",
-        href: "https://tc39.es/ecma262/?utm_source=chatgpt.com#sec-intro"
-    },
-    {
-        logo: SiPython,
-        textColor: "text-black",
-        href: "https://tc39.es/ecma262/?utm_source=chatgpt.com#sec-intro"
-    },
-    {
         logo: SiJavascript,
         textColor: "text-yellow-500",
         href: "https://tc39.es/ecma262/?utm_source=chatgpt.com#sec-intro"
@@ -37,19 +27,14 @@ const skillsLogo = [
         href: "https://www.typescriptlang.org/?utm_source=chatgpt.com"
     },
     {
-        logo: SiFigma,
+        logo: SiCplusplus,
+        textColor: "text-blue-500",
+        href: "https://www.dev-cpp.com"
+    },
+    {
+        logo: SiPython,
         textColor: "text-black",
-        href: "https://www.figma.com"
-    },
-    {
-        logo: SiAdobephotoshop,
-        textColor: "text-blue-800",
-        href: "https://www.adobe.com/th_th/products/photoshop.html"
-    },
-    {
-        logo: SiAdobeillustrator,
-        textColor: "text-amber-600",
-        href: "https://www.adobe.com/th_th/products/illustrator.html"
+        href: "https://www.python.org"
     },
     {
         logo: SiAxios,
@@ -78,7 +63,7 @@ const skillsLogo = [
     },
     {
         logo: SiVercel,
-        textColor: "text-vercel",
+        textColor: "text-black",
         href: "https://vercel.com"
     }
 ]
@@ -93,7 +78,7 @@ const Skills = () => {
                 {skillsLogo.map((skill, index) => {
                     const IconComponent = skill.logo;
                     return (
-                    <div key={index} className={`${skill.textColor} hover:scale-120 duration-300 h-full`}>
+                    <div key={index} className={`${skill.textColor} hover:scale-120 duration-300 h-full`}>ทฟ
                         <a href={skill.href} className="cursor-none"><IconComponent/></a>
                     </div>
                     );
